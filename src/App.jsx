@@ -1,5 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import enicon from './img/en.png'
+import esicon from './img/es.png'
+import prof from './img/profile_user.jpg'
+import quotesgif from './img/quotes.gif'
+import weathergif from './img/Weather.gif'
+import pokegif from './img/pokedex.gif'
+import rickgif from './img/rickandmorty.gif'
+
 
 function App() {
   const [isSpanish, setIsSpanish] = useState(true)
@@ -24,11 +32,11 @@ function App() {
         <div className="hero__container">
           <div className='hero__lang-container'>
             <button onClick={handleClick}>
-              {isSpanish ? <img src="src\img\es.png" alt="spanish icon" /> : <img src="src\img\en.png" alt="english icon" />}
+              {isSpanish ? <img src={esicon} alt="spanish icon" /> : <img src={enicon} alt="english icon" />}
             </button>
           </div>
           <div className="hero__img-container">
-            <img src="src/img/profile_user.jpg" alt="imagen de perfil" />
+            <img src={prof} alt="imagen de perfil" />
           </div>
           <div className="hero__info">
             <h1 className="hero__title">Hola, soy Santiago J.</h1>
@@ -70,21 +78,21 @@ function App() {
             <div className="projects__box">
               <a href="https://aleatoryquote.netlify.app/">
                 <h3>Aleatory Quotes</h3>
-                <img src="/src/img/quotes.gif" alt="Random Quote" />
+                <img src={quotesgif} alt="Random Quote" />
               </a>
             </div>
 
             <div className="projects__box">
               <a href="https://weather-app-san.netlify.app/">
                 <h3>Weather App</h3>
-                <img src="/src/img/Weather.gif" alt="Weather App" />
+                <img src={weathergif} alt="Weather App" />
               </a>
             </div>
 
             <div className="projects__box">
               <a href="https://poke-api-san.netlify.app/">
                 <h3>Poke App</h3>
-                <img src="/src/img/pokedex.gif" alt="Poke App" />
+                <img src={pokegif} alt="Poke App" />
               </a>
             </div>
 
@@ -92,7 +100,7 @@ function App() {
             <div className="projects__box">
               <a href="https://rick-and-morty-app4.netlify.app/">
                 <h3>Rick And Morty App</h3>
-                <img src="/src/img/rickandmorty.gif" alt="Rick And Morty" />
+                <img src={rickgif} alt="Rick And Morty" />
               </a>
             </div>
           </div>
