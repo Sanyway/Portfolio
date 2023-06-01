@@ -122,6 +122,8 @@ function App() {
     </div>
    : 
 
+
+   /* ---------------------------- English Translation ---------------------------*/
    <div>
   <header className="hero">
     <div className="hero__navbar">
@@ -136,11 +138,11 @@ function App() {
     <div className="hero__container">
       <div className='hero__lang-container'>
         <button onClick={handleClick}>
-          {isSpanish ? <img src="src\img\es.png" alt="Spanish icon" /> : <img src="src\img\en.png" alt="English icon" /> }
+          {isSpanish ? <img src={esicon} alt="Spanish icon" /> : <img src={enicon} alt="English icon" /> }
         </button>
       </div>
       <div className="hero__img-container">
-        <img src="src/img/profile_user.jpg" alt="Profile Image" />
+        <img src={prof} alt="Profile Image" />
       </div>
       <div className="hero__info">
         <h1 className="hero__title">Hi, I'm Santiago J.</h1>
@@ -180,32 +182,32 @@ function App() {
       <h2 className="projects__title" id="projects">Projects</h2>
       <div className="projects__container">
         <div className="projects__box">
-          <a href="https://aleatoryquote.netlify.app/">
-            <h3>Aleatory Quotes</h3>
-            <img src="/src/img/quotes.gif" alt="Random Quote" />
-          </a>
-        </div>
+           <a href="https://aleatoryquote.netlify.app/">
+                <h3>Aleatory Quotes</h3>
+                <img src={quotesgif} alt="Random Quote" />
+              </a>
+            </div>
 
-        <div className="projects__box">
-          <a href="https://weather-app-san.netlify.app/">
-            <h3>Weather App</h3>
-            <img src="/src/img/Weather.gif" alt="Weather App" />
-          </a>
-        </div>
+            <div className="projects__box">
+              <a href="https://weather-app-san.netlify.app/">
+                <h3>Weather App</h3>
+                <img src={weathergif} alt="Weather App" />
+              </a>
+            </div>
 
-        <div className="projects__box">
-          <a href="https://poke-api-san.netlify.app/">
-            <h3>Poke App</h3>
-            <img src="/src/img/pokedex.gif" alt="Poke App" />
-          </a>
-        </div>
-        
+            <div className="projects__box">
+              <a href="https://poke-api-san.netlify.app/">
+                <h3>Poke App</h3>
+                <img src={pokegif} alt="Poke App" />
+              </a>
+            </div>
 
-        <div className="projects__box">
-          <a href="https://rick-and-morty-app4.netlify.app/">
-            <h3>Rick And Morty App</h3>
-            <img src="/src/img/rickandmorty.gif" alt="Rick And Morty" />
-          </a>
+
+            <div className="projects__box">
+              <a href="https://rick-and-morty-app4.netlify.app/">
+                <h3>Rick And Morty App</h3>
+                <img src={rickgif} alt="Rick And Morty" />
+              </a>
         </div>
       </div>
     </section>
