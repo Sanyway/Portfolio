@@ -131,7 +131,6 @@ function App() {
         <a href="#study">Studies</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
       </nav>
     </div>
     <div className="hero__container">
