@@ -294,7 +294,7 @@ right: 10px;
   }
 
   .hero__navbar nav a {
-    font-size: 16px;
+    font-size: 3.7vw;
 
   }
 
@@ -349,7 +349,6 @@ right: 10px;
   }
 
   .hero__navbar nav a {
-    font-size: 12px;
     text-align: center;
 
   }
@@ -371,16 +370,4 @@ right: 10px;
   }
 
 
-}
-
-
-
-@media (max-width: 310px) {
-
-
-.hero__navbar nav a {
-  font-size: 10px;
-  text-align: center;
-
-}
 }
