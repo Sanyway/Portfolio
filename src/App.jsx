@@ -26,7 +26,6 @@ function App() {
             <a href="#study">Estudios</a>
             <a href="#skills">Habilidades</a>
             <a href="#projects">Proyectos</a>
-            <a href="#contact">Contacto</a>
           </nav>
         </div>
         <div className="hero__container">
@@ -213,7 +212,7 @@ function App() {
     </section>
 
     <section className="contact">
-      <h2 className="contact__title" id="contact">Contact</h2>
+      <h2 className="contact__title">Contact</h2>
       <div className="contact__info">
         <ul>
           <li><strong>Email:</strong> sanyju85@gmail.com</li>
