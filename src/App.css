@@ -247,8 +247,7 @@ right: 10px;
   }
 
   .hero__navbar nav {
-    gap: 10px;
-    
+    gap: 2vw;
 
   }
 
@@ -293,6 +292,10 @@ right: 10px;
     white-space: pre-wrap;
   }
 
+  .hero__navbar nav {
+    padding: 10px 0 0 0;
+    justify-content: center;
+  }
   .hero__navbar nav a {
     font-size: 3.7vw;
 
@@ -338,20 +341,15 @@ right: 10px;
   }
   
   .hero__navbar nav{
-    padding: 20px 2px 0px 2px;
+    padding: 20px 0px 0px 2px;
     display: flex;
     gap: 5px;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     
   }
 
-  .hero__navbar nav a {
-    text-align: center;
-
-  }
 
   .hero__container {
     min-height: 70vh;
